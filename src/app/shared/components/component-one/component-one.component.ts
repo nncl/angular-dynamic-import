@@ -1,16 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, input } from "@angular/core";
 
 @Component({
-  selector: 'app-component-one',
+  selector: "app-component-one",
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      component-one works!
-    </p>
-  `,
-  styles: ``
+  template: ` <p>This is an input: {{ name() }}</p> `,
+  styles: ``,
 })
 export class ComponentOneComponent {
-
+  name = input<string>();
 }

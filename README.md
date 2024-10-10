@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## References
 
-Thanks to [nthonymiller](https://stackblitz.com/edit/stackblitz-starters-dntqie?file=src%2Fmain.ts).
+Thanks to [nthonymiller](https://stackblitz.com/edit/stackblitz-starters-dntqie?file=src%2Fmain.ts) and [Devsun](https://medium.com/@thappatanchanphen/dynamic-render-component-in-angular18-a023c0ec0ece).
 
 ## Development server
 
