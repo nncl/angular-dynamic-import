@@ -1,17 +1,22 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from "@angular/core";
+import { RouterOutlet } from "@angular/router";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
   imports: [RouterOutlet],
   template: `
-    <h1>Welcome to {{title}}!</h1>
+    <p [innerHTML]="title">Loading...</p>
+
+    <button type="button">Component 1</button>
+
+    <button type="button">Component 2</button>
 
     <router-outlet />
   `,
-  styles: [],
+  styles: `* {font-family: sans-serif}`,
 })
 export class AppComponent {
-  title = 'angular-dynamic-imprt';
+  title =
+    "Click on any button bellow to load components dynamically! <br> Check the network tab to see the JS file loading only when you click on it!";
 }
